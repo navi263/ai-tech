@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ai-tech</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <header>
+  <div class="header-container">
+    <a href="/index.html" class="logo">
+      Logo here
+    </a>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav>
+      <div class="dropdown">
+        <a href="#">Creative Studio</a>
+        <div class="dropdown-content">
+          <a href="#" target="_blank">Video Generation</a>
+          <a href="#" target="_blank">Image Generation</a>
+          <a href="#" target="_blank">Sound Generation</a>
+          <a href="#" target="_blank">Effects</a>
+          <a href="#" target="_blank">More Tools</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#">API Platform</a>
+        <div class="dropdown-content">
+          <a href="#">API Platform Intro</a>
+          <a href="#" target="_blank">Video API</a>
+          <a href="#" target="_blank">Image API</a>
+          <a href="#" target="_blank">Try-on API</a>
+          <a href="#" target="_blank">API Docs</a>
+          <a href="#" target="_blank">API Pricing</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#">About Us</a>
+        <div class="dropdown-content">
+          <a href="#" target="_blank">User Guide</a>
+          <a href="#" target="_blank">Talent Network</a>
+          <a href="#" target="_blank">Affiliate Program</a>
+          <a href="mailto:kling@kuaishou.com">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+    <a href="#" class="button primary-btn create-btn">Create</a>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#">Creative Studio</a>
+    <a href="#">API Platform</a>
+    <a href="#">About Us</a>
+    <a href="#">Create</a>
+  </div>
+</header>
+
+
+    <!--  -->
+    <main>
+      <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+          <source src="./video/Gen-4.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="hero-content">
+          <h1>Welcome to the Future of Play</h1>
+          <p>Made with mind. Powered by play.</p>
+        </div>
+      </section>
+
+      <!-- About Section Start -->
+      <section class="pad-vertical">
+        <div class="container">
+          <div class="about-wrapper">
+            <div class="heading-box" data-aos="fade-up">
+              <h2><span class="pulse"></span> About</h2>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-md-6" data-aos="fade-right">
+                <div class="about-right-box">
+                  <img src="./images/IMG_0946.JPG" alt="About Us" />
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-left">
+                <div class="about-left-box">
+                  <h3>Who We Are</h3>
+                  <p>
+                    AI RISE CIC is a London-based community hub dedicated to
+                    helping Black youth and other underrepresented groups
+                    discover their place in the world of AI...
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="about-left-box">
+                  <h3>Our Mission</h3>
+                  <p>
+                    To unlock creative and technological brilliance in the next
+                    generation...
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="about-right-box">
+                  <img src="./images/IMG_0958.JPG" alt="About Us" />
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-right">
+                <div class="about-right-box">
+                  <img src="./images/who-we.JPG" alt="About Us" />
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-left">
+                <div class="about-left-box">
+                  <h3>Why We Exist</h3>
+                  <p>
+                    Too many young people grow up without ever seeing themselves
+                    in tech. We're here to change that...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Gallery Section Start -->
+      <section class="activity-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12" data-aos="fade-up">
+              <div class="activity-section-header">
+                <h3><span class="pulse"></span>Gallery</h3>
+                <p>
+                  Step into our world. This space showcases the art, stories,
+                  videos, and experiments...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="gallery" class="photos-grid-container gallery">
+            <div class="main-photo img-box" data-aos="zoom-in">
+              <a href="images/gallery-1.JPG" class="glightbox" data-glightbox="type: image">
+                <img src="images/gallery-1.JPG" style="height: 610px; width: 590px; object-fit: cover" alt="image"/>
+              </a>
+            </div>
+            <div>
+              <div class="sub">
+                <div class="img-box" data-aos="zoom-in">
+                  <a href="images/gallery-2.JPG" class="glightbox" data-glightbox="type: image">
+                    <img src="images/gallery-2.JPG" alt="image"/>
+                  </a>
+                </div>
+                <div class="img-box" data-aos="zoom-in">
+                  <a href="images/gallery-6.JPG" class="glightbox" data-glightbox="type: image">
+                    <img src="images/gallery-6.JPG" alt="image"/>
+                  </a>
+                </div>
+                <div class="img-box" data-aos="zoom-in">
+                  <a href="images/gallery-4.JPG" class="glightbox" data-glightbox="type: image">
+                    <img src="images/gallery-4.JPG" alt="image"/>
+                  </a>
+                </div>
+                <div id="multi-link" class="img-box" data-aos="zoom-in">
+                  <a href="images/gallery-3.JPG" class="glightbox" data-glightbox="type: image">
+                    <img src="images/gallery-3.JPG" alt="image" />
+                    <div class="transparent-box">
+                      <div class="caption">+3</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div id="more-img" class="extra-images-container hide-element">
+              <a href="images/gallery-7.JPG" class="glightbox" data-glightbox="type: image" data-aos="fade-up">
+                <img src="images/gallery-8.JPG" alt="image"/>
+              </a>
+              <a href="images/gallery-9.JPG" class="glightbox" data-glightbox="type: image" data-aos="fade-up">
+                <img src="images/gallery-10.JPG" alt="image"/>
+              </a>
+              <a href="images/gallery-11.JPG" class="glightbox" data-glightbox="type: image" data-aos="fade-up">
+                <img src="images/gallery-11.JPG" alt="image"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery Section End -->
+
+      <!-- Donation Section Start -->
+      <section class="donation-sec">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="donation-inner">
+            <div class="donation-image" data-aos="fade-right">
+              <img src="images/man-donation.webp" alt="Donate" width="504" height="588" loading="lazy">
+            </div>
+            <div class="donation-content" data-aos="fade-left">
+              <h2>Dedicate Your Time For Those <span>Who Need it The Most</span></h2>
+              <p>
+                Support the future. Your donation helps us run free AI workshops, provide equipment, and keep the space
+                safe, welcoming, and inspiring.
+              </p>
+              <button type="button" class="button primary-btn full-btn">
+                Donate Now<i class="fa-solid fa-paper-plane ms-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Donation Section End -->
+
+      <!-- Contact Section Start -->
+      <section class="gray-simple">
+        <div class="container">
+          <div class="row align-items-center justify-content-between g-4">
+            <div class="col-xl-12">
+              <div class="touch-block d-flex flex-column mb-4" data-aos="fade-up">
+                <h2>Contact Us</h2>
+                <p>
+                  Get in touch via the form below and we will reply as soon as we can.
+                </p>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-xl-7 col-lg-7 col-md-12" data-aos="fade-right">
+              <div class="contactForm">
+                <form>
+                  <div class="row align-items-center">
+                    <div class="col-xl-6">
+                      <div class="form-group">
+                        <label class="form-label">Your Name</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-xl-6">
+                      <div class="form-group">
+                        <label class="form-label">Email Id</label>
+                        <input type="email" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-xl-6">
+                      <div class="form-group">
+                        <label class="form-label">Phone No.</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-xl-6">
+                      <div class="form-group">
+                        <label class="form-label">Subject</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="form-group">
+                        <label class="form-label">Your Query</label>
+                        <textarea class="form-control ht-120"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="form-group mb-0">
+                        <button type="button" class="button primary-btn full-btn">
+                          Send Message<i class="fa-solid fa-paper-plane ms-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!-- Contact Cards -->
+            <div class="col-xl-4 col-lg-4 col-md-12" data-aos="fade-left">
+              <div class="card p-4 rounded-4 border br-dashed text-center mb-4">
+                <div class="crds-icons d-inline-flex mx-auto mb-3 fs-2">
+                  <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div class="crds-desc">
+                  <p>Drop a Mail</p>
+                  <a href="#">info@gmail.com</a><br>
+                  <a href="#">support@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="card p-4 rounded-4 border br-dashed text-center">
+                <div class="crds-icons d-inline-flex mx-auto mb-3 fs-2">
+                  <i class="fa-solid fa-headset"></i>
+                </div>
+                <div class="crds-desc">
+                  <p>Call Us</p>
+                  <a href="#">(9898) 9898989</a><br>
+                  <a href="#">91+ 989 9898 989</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact Section End -->
+    </main>
+
+
+  <footer class="footer-container">
+    <div class="footer-content">
+      <div class="footer-logo-section">
+        <div class="logo">
+          <!-- <img src="logo.svg" alt="KlingAI Logo" width="146" height="32"> -->
+           logo here
+        </div>
+
+        <div class="footer-list">
+          <h3>Creative Studio</h3>
+          <p><a href="#" target="_blank">AI Tools</a></p>
+          <p><a href="#" target="_blank">Mobile App</a></p>
+        </div>
+
+        <div class="footer-list no-margin">
+          <h3>API Platform</h3>
+          <p><a href="/global/dev">API Platform</a></p>
+        </div>
+
+        <div class="footer-list no-margin">
+          <h3>About Us</h3>
+          <p><a href="#" target="_blank">User Guide</a></p>
+          <p><a href="#" target="_blank">Talent Network</a></p>
+          <p><a href="#" target="_blank">Affiliate Program</a></p>
+          <p><a href="mailto:kling@kuaishou.com">Contact Us kling@kuaishou.com</a></p>
+        </div>
+      </div>
+
+      <div class="social-icons">
+        <a href="#" target="_blank"><img src="./images/facebook.svg" alt=""></a>
+        <a href="#" target="_blank"><img src="./images/instagram.svg" alt=""></a>
+        <a href="#" target="_blank"><img src="./images/linkedin.svg" alt=""></a>
+        <a href="#" target="_blank"><img src="./images/x.png" alt=""></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        2025 © All rights Reserved
+        <a href="#" target="_blank">京ICP备15023266号-171</a>
+      </p>
+    </div>
+  </footer>
+
+
+    <!-- js -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById('mobileMenu');
+        menu.classList.toggle('show');
+      }
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        offset: 120,
+        once: false,
+        mirror: true,
+        easing: 'ease-in-out',
+        delay: 0
+      });
+    </script>
+
+    <!-- js -->
+  </body>
+</html>
