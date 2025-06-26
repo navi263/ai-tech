@@ -22,7 +22,6 @@
   transform: scale(1.05);
 }
 
-
 header {
   position: fixed;
   top: 0;
@@ -46,7 +45,7 @@ header {
 }
 
 .logo img {
-  width: 45px;
+  width: 100px;
   height: auto;
 }
 a.logo {
@@ -54,6 +53,12 @@ a.logo {
     font-size: 22px;
     line-height: 28px;
 }
+
+.banner-logo img {
+  width: 300px;
+  height: auto;
+}
+
 a.button.primary-btn.create-btn {
     min-width: unset;
     height: auto;
@@ -406,6 +411,7 @@ nav a:hover {
 }
 .activity-section-header h3 {
   margin-bottom: 10px;
+  color: var(--heading-color);
 }
 /* Gallery Section End */
 /* Donation Start */
@@ -648,3 +654,78 @@ nav a:hover {
 }
 
 /* Footer Section End */
+
+
+
+/* my css */
+
+
+/* Global dark theme */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Ensure containers don’t override background */
+.container,
+section,
+.row,
+.about-wrapper,
+.gallery,
+.donation-sec,
+.gray-simple {
+  background-color: transparent;
+  color: inherit;
+}
+
+/* Headings */
+ h3, h4, h5, h6,
+.about-left-box h3,
+.touch-block h2 {
+  color: #fff !important;
+}
+
+/* Paragraphs and links */
+p, a, span, label {
+  color: #ddd !important;
+}
+
+/* Form inputs */
+input,
+textarea,
+select {
+  background-color: #111;
+  color: #fff !important;
+  border: 1px solid #444;
+}
+
+/* Buttons */
+.button,
+.primary-btn {
+  background-color: #6200ea;
+  color: #fff !important;
+  border: none;
+}
+
+.button:hover,
+.primary-btn:hover {
+  background-color: #3700b3;
+}
+
+/* Card background for contact */
+.card {
+  background-color: #111;
+  color: #fff !important;
+  border-color: #333;
+}
+
+/* Caption in gallery */
+.transparent-box .caption {
+  color: #fff !important;
+}
+
+
+.activity-section-header h3 {
+  margin-bottom: 10px;
+  color: var(--heading-color) !important;
+}
