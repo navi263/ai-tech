@@ -14,6 +14,15 @@
   transform: scale(1.05);
 }
 
+.about-right-box img {
+  transition: transform 0.4s ease;
+}
+
+.about-right-box img:hover {
+  transform: scale(1.05);
+}
+
+
 header {
   position: fixed;
   top: 0;
