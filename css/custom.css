@@ -680,7 +680,6 @@ section,
 
 /* Headings */
  h3, h4, h5, h6,
-.about-left-box h3,
 .touch-block h2 {
   color: #fff !important;
 }
@@ -729,3 +728,7 @@ select {
   margin-bottom: 10px;
   color: var(--heading-color) !important;
 }
+.about-left-box h3{
+  color: var(--heading-color) !important;
+}
+
