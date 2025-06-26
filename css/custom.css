@@ -6,6 +6,14 @@
   font-family: "Inter", sans-serif;
 }
 
+.img-box img {
+  transition: transform 0.4s ease;
+}
+
+.img-box img:hover {
+  transform: scale(1.05);
+}
+
 header {
   position: fixed;
   top: 0;
