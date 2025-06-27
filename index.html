@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-
 </head>
 
 <body>
@@ -26,51 +24,26 @@
                 <span></span>
             </div>
             <nav>
-                <div class="dropdown">
-                    <a href="#">Home</a>
-                </div>
-
-                <div class="dropdown">
-                    <a href="#">About</a>
-                    <div class="dropdown-content">
-                        <a href="#" target="_blank">User Guide</a>
-                        <a href="#" target="_blank">Talent Network</a>
-                        <a href="#" target="_blank">Affiliate Program</a>
-                        <a href="mailto:kling@kuaishou.com">Contact Us</a>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <a href="#">What we do</a>
-                </div>
-
-                <div class="dropdown">
-                    <a href="#">Gallery</a>
-                </div>
-
-                <div class="dropdown">
-                    <a href="#">Partners</a>
-                </div>
-
-                <div class="dropdown">
-                    <a href="#">Contact</a>
-                </div>
-                
+                <div class="dropdown"><a href="#home">Home</a></div>
+                <div class="dropdown"><a href="#about">About</a></div>
+                <div class="dropdown"><a href="#what-we-do">What We Do</a></div>
+                <div class="dropdown"><a href="#gallery">Gallery</a></div>
+                <div class="dropdown"><a href="#partners">Partners</a></div>
+                <div class="dropdown"><a href="#contact">Contact</a></div>
             </nav>
-            <a href="#" class="button primary-btn create-btn">Create</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5rZBrLvjhh5ZUFpZXErVxg1ATXidLN28ouWxTnR5S4Axoxg/viewform?fbclid=PAQ0xDSwK_nf9leHRuA2FlbQIxMQABpyeemSf66L68iSyZB1CG6QFTY9QJ00tty1K-iZepM4xGzj6EPErKLrCoEf00_aem_cbMNxPkVJPfueBkrab92xQ" target="_blank" class="button primary-btn create-btn">Register Your Interest</a>
         </div>
         <div class="mobile-menu" id="mobileMenu">
-            <a href="#">Creative Studio</a>
-            <a href="#">API Platform</a>
-            <a href="#">About Us</a>
-            <a href="#">Create</a>
+            <a href="#about">About</a>
+            <a href="#what-we-do">What We Do</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#partners">Partners</a>
+            <a href="#contact">Contact</a>
         </div>
     </header>
 
-
-    <!--  -->
     <main>
-        <section class="hero">
+        <section id="home" class="hero">
             <video autoplay muted loop playsinline class="hero-video">
                 <source src="./video/Gen-4.mp4" type="video/mp4" /> Your browser does not support the video tag.
             </video>
@@ -83,7 +56,7 @@
         </section>
 
         <!-- About Section Start -->
-        <section class="pad-vertical">
+        <section id="about" class="pad-vertical">
             <div class="container">
                 <div class="about-wrapper">
                     <div class="heading-box" data-aos="fade-up">
@@ -99,7 +72,7 @@
                             <div class="about-left-box">
                                 <h3>Who We Are</h3>
                                 <p>
-                                    AI RISE CIC is a London-based community hub dedicated to helping Black youth and other underrepresented groups discover their place in the world of AI...
+                                    AI RISE CIC is a London-based community hub dedicated to helping Black youth and other underrepresented groups discover their place in the world of AI. We blend tech, art, culture, and play to build confidence, skills, and imagination.
                                 </p>
                             </div>
                         </div>
@@ -107,7 +80,9 @@
                             <div class="about-left-box">
                                 <h3>Our Mission</h3>
                                 <p>
-                                    To unlock creative and technological brilliance in the next generation...
+                                    AI Rise CIC exists to empower young Black and underrepresented youth by giving them real access to artificial intelligence through creativity, play, and cultural expression.
+                                    We’re building an inclusive space where tech isn’t taught through tests, it’s explored through art, music, and imagination.
+                                    Our mission is to close the access gap, unlock innovation from the ground up, and inspire the next generation to lead in a future that wasn’t built with them in mind, but will be shaped by them.
                                 </p>
                             </div>
                         </div>
@@ -125,7 +100,7 @@
                             <div class="about-left-box">
                                 <h3>Why We Exist</h3>
                                 <p>
-                                    Too many young people grow up without ever seeing themselves in tech. We're here to change that...
+                                    Too many young people grow up without ever seeing themselves in tech. We're here to change that. Not with lectures — but with joy, discovery, and the freedom to create without limits.
                                 </p>
                             </div>
                         </div>
@@ -135,15 +110,63 @@
         </section>
         <!-- About Section End -->
 
+        <!-- What We Do Start -->
+        <section id="what-we-do" class="activity-section pad-vertical">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" data-aos="fade-up">
+                        <div class="activity-section-header text-center">
+                            <h2><span class="pulse"></span> What We Do</h2>
+                            <p>
+                                AI Rise CIC is a creative tech hub for young people aged 11–18 from underrepresented communities.  
+                                We use cutting-edge AI tools to unlock imagination — not just education.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-4">
+                    <div class="col-md-6 col-lg-3" data-aos="fade-up">
+                        <div class="card p-4 rounded-4 text-center h-100 shadow-sm">
+                            <div class="fs-1 mb-3">🎨</div>
+                            <h5 class="mb-2">AI Art</h5>
+                            <p class="mb-0">Create stunning visuals using tools like MidJourney and explore AI-generated creativity.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card p-4 rounded-4 text-center h-100 shadow-sm">
+                            <div class="fs-1 mb-3">🎤</div>
+                            <h5 class="mb-2">AI Music & Voice</h5>
+                            <p class="mb-0">Generate music and voices using AI tools like Suno, bringing sound to life with code.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card p-4 rounded-4 text-center h-100 shadow-sm">
+                            <div class="fs-1 mb-3">🎬</div>
+                            <h5 class="mb-2">Visual Storytelling</h5>
+                            <p class="mb-0">Learn how to create cinematic AI-generated videos with tools like Runway.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card p-4 rounded-4 text-center h-100 shadow-sm">
+                            <div class="fs-1 mb-3">🧠</div>
+                            <h5 class="mb-2">Self Expression</h5>
+                            <p class="mb-0">Discover identity, creativity, and expression on your terms, through culturally grounded exploration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- What We Do End -->
+
         <!-- Gallery Section Start -->
-        <section class="activity-section">
+        <section id="gallery" class="activity-section">
             <div class="container">
                 <div class="row">
                     <div class="col-12" data-aos="fade-up">
                         <div class="activity-section-header">
                             <h3><span class="pulse"></span>Gallery</h3>
                             <p>
-                                Step into our world. This space showcases the art, stories, videos, and experiments...
+                                Step into our world. This space showcases the art, stories, videos, and experiments created by the young minds in our program. All powered by AI tools and their imagination.
                             </p>
                         </div>
                     </div>
@@ -197,8 +220,49 @@
         </section>
         <!-- Gallery Section End -->
 
+        <!-- Join Us Section Start -->
+        <section class="pad-vertical gray-simple" id="join">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center" data-aos="fade-up">
+                        <h2><span class="pulse"></span> Join Us</h2>
+                        <p class="mt-3">
+                            Whether you're a young person, a parent, or someone who just wants to be involved — we want to hear from you.
+                        </p>
+                        <ul class="list-unstyled mt-4 mb-4 text-start d-inline-block">
+                            <li>• Sign up for updates and opportunities</li>
+                            <li>• Volunteer your time or skills</li>
+                            <li>• Recommend a young person who'd love this</li>
+                        </ul><br>
+                        <a href="https://forms.gle/your-form-link" target="_blank" class="button primary-btn mt-3">
+                            Join Now <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Join Us Section End -->
+
+        <!-- Partners & Supporters Section Start -->
+        <section class="pad-vertical" id="partners">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center" data-aos="fade-up">
+                        <h2><span class="pulse"></span> Partners & Supporters</h2>
+                        <p class="mt-3">
+                            We believe in collaboration. If you're a school, funder, creative studio, or someone who wants to back the next generation of innovators — get in touch. Let's build this together.
+                        </p>
+                        <a href="mailto:impact@arise.uk" class="button primary-btn mt-3">
+                            Become a Partner <i class="fa-solid fa-handshake ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Partners & Supporters Section End -->
+
         <!-- Donation Section Start -->
-        <section class="donation-sec mt-5">
+        <section id="donate" class="donation-sec mt-5">
             <div class="overlay"></div>
             <div class="container">
                 <div class="donation-inner">
@@ -210,9 +274,9 @@
                         <p>
                             Support the future. Your donation helps us run free AI workshops, provide equipment, and keep the space safe, welcoming, and inspiring.
                         </p>
-                        <button type="button" class="button primary-btn full-btn">
+                        <a href="https://gofund.me/25969dae" class="button primary-btn full-btn">
                             Donate Now<i class="fa-solid fa-paper-plane ms-2"></i>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -220,7 +284,7 @@
         <!-- Donation Section End -->
 
         <!-- Contact Section Start -->
-        <section class="gray-simple">
+        <section id="contact" class="gray-simple">
             <div class="container">
                 <div class="row align-items-center justify-content-between g-4">
                     <div class="col-xl-12">
@@ -287,7 +351,7 @@
                             </div>
                             <div class="crds-desc">
                                 <p>Drop a Mail</p>
-                                <a href="#">info@gmail.com</a>
+                                <a href="#">impact@arise.uk</a>
                                 <br>
                                 <a href="#">support@gmail.com</a>
                             </div>
@@ -308,17 +372,14 @@
                 </div>
             </div>
         </section>
-
-        <!-- contact Section End -->
+        <!-- Contact Section End -->
     </main>
-
 
     <footer class="footer-container">
         <div class="footer-content">
             <div class="footer-logo-section">
                 <div class="logo">
-                    <!-- <img src="logo.svg" alt="KlingAI Logo" width="146" height="32"> -->
-                    logo here
+                    <a href="/index.html" class="logo"><img src="./images/logo-black.png" alt="logo" /></a>
                 </div>
 
                 <div class="footer-list">
@@ -337,15 +398,15 @@
                     <p><a href="#" target="_blank">User Guide</a></p>
                     <p><a href="#" target="_blank">Talent Network</a></p>
                     <p><a href="#" target="_blank">Affiliate Program</a></p>
-                    <p><a href="mailto:kling@kuaishou.com">Contact Us kling@kuaishou.com</a></p>
+                    <p><a href="impact@arise.uk">Contact Us impact@arise.uk</a></p>
                 </div>
             </div>
 
             <div class="social-icons">
-                <a href="#" target="_blank"><img src="./images/facebook.svg" alt=""></a>
-                <a href="#" target="_blank"><img src="./images/instagram.svg" alt=""></a>
-                <a href="#" target="_blank"><img src="./images/linkedin.svg" alt=""></a>
-                <a href="#" target="_blank"><img src="./images/x.png" alt=""></a>
+                <a href="https://www.tiktok.com/@airiseuk?_t=ZN-8x7kJluLcz0&amp;_r=1" target="_blank"><img src="./images/facebook.svg" alt=""></a>
+                <a href="https://www.instagram.com/airiseuk?igsh=Mzl1dnRtcjIwMDNw" target="_blank"><img src="./images/instagram.svg" alt=""></a>
+                <a href="https://www.linkedin.com/company/ai-rise-cic/" target="_blank"><img src="./images/linkedin.svg" alt=""></a>
+                <a href="https://x.com/airiseuk?s=21" target="_blank"><img src="./images/x.png" alt=""></a>
             </div>
         </div>
 
@@ -356,7 +417,6 @@
             </p>
         </div>
     </footer>
-
 
     <!-- js -->
 
