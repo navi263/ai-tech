@@ -42,7 +42,7 @@ header {
 .header-container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 20px 40px;
+  padding: 0px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,7 +51,7 @@ header {
 
 .logo img {
   width: 100px;
-  height: auto;
+  height: 90px;
 }
 a.logo {
     color: #fff;
@@ -290,10 +290,11 @@ nav a:hover {
   text-transform: uppercase;
 }
 .about-right-box img {
-  overflow: hidden;
-  border-radius: 20px;
-  width: 654px;
-  height: 412px;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 500px;
+    height: 358px;
+    object-fit: cover;
 }
 .about-right-box {
   border-radius: 20px;
@@ -312,6 +313,19 @@ nav a:hover {
 }
 .about-wrapper .row {
   margin-top: 60px;
+    align-items: center;
+}
+.row.bottom-row {
+    border-top: 1px dashed #2b1953;
+    padding-top: 60px;
+    border-bottom: 1px dashed #2b1953;
+    padding-bottom: 60px;
+}
+.about-left-box.right-side {
+    padding-right: 70px;
+}
+h2{
+    margin-bottom: 20px;
 }
 /* about section end */
 
@@ -331,8 +345,9 @@ nav a:hover {
   }
 }
 .photos-grid-container .img-box {
-  border: 1px solid #ffffff;
-  position: relative;
+    border: 1px solid #443468;
+    position: relative;
+    overflow: hidden;
 }
 .photos-grid-container .img-box:hover .transparent-box {
   background-color: rgba(0, 0, 0, 0.6);
@@ -456,22 +471,39 @@ nav a:hover {
 }
 
 .donation-image img {
-  max-width: 100%;
-  height: auto;
+    max-width: 360px;
+    height: auto;
+    width: 100%;
 }
-
 .donation-content {
   flex: 1 1 45%;
   color: #333;
 }
-
+#donate {
+    background: #4f23b6;
+    padding: 60px 0px;
+}
+#donate a.button.primary-btn.full-btn {
+    background: #ffffff;
+    color: #4f23b6 !important;
+}
 .donation-content h2 {
   font-size: 32px;
   margin-bottom: 20px;
   font-weight: bold;
   line-height: 1.3;
 }
-
+.form-control {
+    border: 1px solid var(--border-color);
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #1a1a1a;
+}
+.form-control:focus, input{
+	background: #1a1a1a;
+}
+	
 .donation-content h2 span {
   color: #fff;
 }
@@ -718,9 +750,9 @@ select {
 
 /* Card background for contact */
 .card {
-  background-color: #111;
-  color: #fff !important;
-  border-color: #333;
+    background-color: #1d162d;
+    color: #fff !important;
+    border-color: #4f23b6 !important;
 }
 
 /* Caption in gallery */
@@ -732,8 +764,48 @@ select {
 .activity-section-header h3 {
   margin-bottom: 10px;
   color: var(--heading-color) !important;
+  margin-bottom:20px;
 }
 .about-left-box h3{
   color: var(--heading-color) !important;
 }
 
+
+#join ul.list-unstyled.mt-4.mb-4.text-start.d-inline-block {
+    display: flex !important;!i;!;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px !important;!i;!;
+}
+#join li {
+    margin-right: 10px;
+    width: 32%;
+    font-size: 13px;
+    text-align: left;
+    background: #fff;
+    padding: 10px 8px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #00000052;
+    color: #000;
+}
+#join .col-lg-10.text-center{
+    background: #4f23b6;
+    padding: 50px;
+    border-radius: 40px;
+}
+#join span.pulse {
+    background: #fff;
+}
+#join h2 {
+    color: #fff;
+}
+#join .mt-3 {
+    max-width: 600px;
+    margin: auto;
+}
+#join .button.primary-btn.mt-3 {
+    margin-top: 0 !important;
+    background: #fff;
+    color: #4f23b6 !important;
+}
