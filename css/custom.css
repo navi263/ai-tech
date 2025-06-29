@@ -819,7 +819,7 @@ select {
     border-radius: 40px;
 }
 section#what-we-do {
-    background: url(../images/what-we-do-1.jpg);
+    background: url(../images/what-we-do-1.JPG);
 	background-size: cover;
     position: relative;
     z-index: 1;
