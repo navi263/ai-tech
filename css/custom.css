@@ -71,7 +71,8 @@ a.logo {
 }
 video.about-us {
     width: 100%;
-	border-radius: 10px;
+	  border-radius: 10px;
+    height: 400px;
 }
 section#partners h2 {
     font-size: 34px;
