@@ -1,6 +1,6 @@
-<?php
+<!-- <?php
 session_start();
-?>
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -181,7 +181,7 @@ session_start();
                 <div id="gallery" class="photos-grid-container gallery">
                     <div class="main-photo img-box" data-aos="zoom-in">
                         <a href="images/gallery1.PNG" class="glightbox" data-glightbox="type: image">
-                            <img src="images/gallery1.PNG" style="height: 610px; width: 605px; object-fit: cover" alt="image" />
+                            <img src="images/gallery1.PNG" style="height: 450px; width: 605px; object-fit: cover" alt="image" />
                         </a>
                     </div>
                     <div>
@@ -350,7 +350,7 @@ session_start();
                         </div>
                     </div>
 
-                    <?php
+                    <!-- <?php
                         if (isset($_SESSION['form_status'])) {
                             $status = $_SESSION['form_status'];
                             echo '<div class="alert alert-' . ($status['type'] == 'success' ? 'success' : 'danger') . '">';
@@ -358,7 +358,7 @@ session_start();
                             echo '</div>';
                             unset($_SESSION['form_status']);
                         }
-                    ?>
+                    ?> -->
 
                     <!-- Contact Form -->
                     <div class="col-xl-7 col-lg-7 col-md-12" data-aos="fade-right">
