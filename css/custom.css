@@ -901,6 +901,9 @@ section#what-we-do:after {
     right: 0;
     z-index: -1;
 }
+#what-we-do span.pulse {
+    background: var(--heading-color) !important;
+}
 #join span.pulse {
     background: var(--heading-color) !important;
 }
