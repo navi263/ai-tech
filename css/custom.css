@@ -466,7 +466,8 @@ h2{
 }
 .photos-grid-container .sub .img-box img {
   height: 220px;
-  object-fit: cover;
+  /* object-fit: cover; */
+  width: 300px;
 }
 .photos-grid-container .img-box img {
   max-height: 450px;
