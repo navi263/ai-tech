@@ -855,11 +855,14 @@ select {
 
 
 #join ul.list-unstyled.mt-4.mb-4.text-start.d-inline-block {
-    display: flex !important;!i;!;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 40px !important;!i;!;
+    margin-top: 40px !important;
+}
+#join h2{
+  color: var(--heading-color) !important;
 }
 #join li {
     margin-right: 10px;
@@ -899,11 +902,9 @@ section#what-we-do:after {
     z-index: -1;
 }
 #join span.pulse {
-    background: #fff;
+    background: var(--heading-color) !important;
 }
-#join h2 {
-    color: #fff;
-}
+
 #join .mt-3 {
     max-width: 600px;
     margin: auto;
