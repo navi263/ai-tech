@@ -82,10 +82,13 @@ section#partners .row {
 }
 section#partners img {
     width: 100%;
-    max-width: 420px;
+    max-width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 .banner-logo img {
-  width: 300px;
+  width: 400px;
   height: auto;
 }
 
@@ -499,6 +502,7 @@ h2{
     max-width: 400px;
     height: auto;
     width: 100%;
+	border-radius:10px;
 }
 .donation-content {
   flex: 1 1 45%;
@@ -572,7 +576,50 @@ h2{
   background-color: #f7f7f7;
   padding: 60px 0;
 }
+.main-testimonial {
+    display: flex;
+}
 
+.main-testimonial .testimonial-inner {
+    background: #4f23b6;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 0px 10px;
+    width: 100%;
+    max-width: 48%;
+}
+.testimonial-inner p {
+    font-size: 14px;
+} 
+.bottom-testimonial span {
+    font-weight: 700;
+}
+.bottom-testimonial img {
+    width: 50px;
+    border-radius: 50px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.bottom-testimonial {
+    margin-top: 15px;
+}
+
+.testimonial-inner>  img {
+    width: 34px !important;
+    margin-bottom: 20px;
+    filter: grayscale(1) !important;
+}
+
+
+section#testimonial {
+    padding: 50px 0px;
+}
+
+.testimonial-inner h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
 .grayscale {
   filter: grayscale(100%);
 }
