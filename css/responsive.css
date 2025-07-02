@@ -1,60 +1,89 @@
-
-@media screen and (min-width:576px) {
-   
+@media screen and (min-width: 576px) {
 }
 
-@media screen and (min-width:768px) {
-   
+@media screen and (min-width: 768px) {
 }
 
-@media screen and (min-width:880px) {
- 
+@media screen and (min-width: 880px) {
 }
-@media screen and (min-width:992px) {
- 
+@media screen and (min-width: 992px) {
 }
-@media screen and (min-width:1200px) {
-  
+@media screen and (min-width: 1200px) {
 }
 
-
-
-@media screen and (min-width:1480px) {
-   
-
-
-
-
+@media screen and (min-width: 1480px) {
 }
 
-
-
-@media screen and (max-width:1600px) {
-
+@media screen and (max-width: 1600px) {
 }
-@media screen and (max-width:1440px) {
- 
+@media screen and (max-width: 1440px) {
 }
-@media screen and (max-width:1199px) {
-    
-    
+@media screen and (max-width: 1280px) {
+  .about-right-box img {
+    width: 100%;
+  }
 }
-@media screen and (max-width:992px) {
-  
+@media screen and (max-width: 1199px) {
 }
-@media screen and (max-width:767px) {
-   
+@media screen and (max-width: 1024px) {
+  .hero-content h1 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 992px) {
+  a.button.primary-btn.create-btn.desktop-btn {
+    display: none;
+  }
+  .about-right-box img {
+    padding-top: 30px;
+  }
+  section#gallery {
+    padding-top: 30px;
+  }
+  .about-left-box.right-side {
+    padding-right: unset;
+  }
+  .about-wrapper .row {
+    margin-top: 30px;
+  }
+  .about-left-box {
+    margin-top: 40px;
+  }
+  .gray-simple {
+    padding: 30px 0;
+  }
+  .row.bottom-row {
+    padding-top: 0;
+  }
+  .pad-vertical {
+    padding: 30px 0;
+  }
+  section#partners h2 {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
 }
 
-@media screen and (max-width:575px) {
-
+@media screen and (max-width: 575px) {
+  .main-testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.main-testimonial .testimonial-inner{
+  max-width: 100%;
+}
+  #join li {
+    width: 100%;
+  }
+  .main-testimonial .testimonial-inner {
+    padding: 30px;
+  }
 }
 
-@media screen and (max-width:480px) {
-
+@media screen and (max-width: 480px) {
 }
 
-@media screen and (max-width:360px) {
-
+@media screen and (max-width: 360px) {
 }
-
